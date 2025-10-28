@@ -1,6 +1,6 @@
 # New Feature Profile Added
 def greet(name="World"):
-    return f"Hello {name}! This is V3 Feature Profile."
+    return f"Hello {name}! I am now developing with Docker Compose!"
 
 # Testing to add new feature while pulling main
 
