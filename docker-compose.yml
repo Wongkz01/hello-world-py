@@ -1,7 +1,10 @@
 version: '3.8'
 services:
   app:
+    env_file: .env
     build: .
     volumes:
       - .:/app
-    command: python -u hello.py
+    command: python -u rag_pipeline.py
+    stdin_open: true # Keep STDIN open for interactive input
+    tty: true        # Allocate a pseudo-TTY

@@ -1,0 +1,3 @@
+The RAG project started in 2024.
+The main orchestrator is LangChain, and it uses a FAISS vector store.
+The goal is to answer questions about documents the LLM has not seen.
